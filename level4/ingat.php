@@ -1,2 +1,2 @@
 <?php
-// Kerjakan Level 4 di sini: simpan nama pengguna ke Cookie
+setcookie("pelanggan", $nama, time() + 99180, "/");
