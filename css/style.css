@@ -1,15 +1,132 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background: radial-gradient(ellipse at top, #1a1f3a 0%, #0a0e27 100%);
+    color: #e8e8e8;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #ff4747;
+    text-shadow: 2px 2px 0 #000, 0 0 20px rgba(255, 71, 71, 0.6);
+    letter-spacing: 3px;
+    font-size: 2.4em;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #7bd3f7;
+    padding-left: 12px;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #ffcc5c;
+}
+
+p {
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px 0 20px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid #3a4267;
     border-collapse: collapse;
 }
 
 th, td {
-    padding: 6px;
+    padding: 10px 14px;
+    text-align: left;
 }
 
-/* Boleh ya kalo mau CSS nya dibuat cantik hehehe */
+th {
+    background: #ff4747;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+tr:nth-child(even) td {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+form {
+    background: rgba(255, 255, 255, 0.07);
+    padding: 20px 25px;
+    border-radius: 10px;
+    max-width: 600px;
+    border: 2px solid #3a4267;
+}
+
+form p {
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background: #1a1f3a;
+    color: #fff;
+    font-size: 1em;
+    margin-left: 6px;
+}
+
+input[type="radio"] {
+    margin: 0 4px 0 10px;
+}
+
+button {
+    background: #ff4747;
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background: #ff6b6b;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 71, 71, 0.5);
+}
+
+a {
+    color: #7bd3f7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff4747;
+    text-decoration: underline;
+}
+
+ol {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 15px 15px 15px 40px;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+ol li {
+    padding: 4px 0;
+    color: #c7f7c7;
+}
