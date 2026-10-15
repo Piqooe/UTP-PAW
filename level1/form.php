@@ -36,10 +36,10 @@
         Ransum:
         <select name="menu" required>
             <option value="Pizza Segitiga Polus">Pizza Segitiga Polus</option>
-            <option value="Extra Joss">Extra Joss</option>
-            <option value="Kopi Susu Kapal Api">Kopi Susu Kapal Api</option>
-            <option value="Jus Alpukat">Jus Alpukat</option>
-            <option value="Thai Tea">Thai Tea</option>
+            <option value="Susu Elektrik Electrical">Susu Elektrik Electrical</option>
+            <option value="Space Donut Oxygen">Space Donut Oxygen</option>
+            <option value="Jus Berry MedBay">Jus Berry MedBay</option>
+            <option value="Emergency Steak Navigation">Emergency Steak Navigation</option>
         </select>
     </p>
     <p>
