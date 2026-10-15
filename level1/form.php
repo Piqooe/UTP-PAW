@@ -28,10 +28,30 @@
 
 <h2>Form Pemesanan</h2>
 <form action="proses.php" method="post">
-    Nama: <!-- Input Text Nama -->
-    Ransum: <!-- Input Pilihan Ransum -->
-    Jumlah: <!-- Input Jumlah -->
-    Kategori Pelanggan: <!-- Input Pilihan Jenis Pelanggan -->
-    
-    <!-- Submit -->
+    <p>
+        Nama:
+        <input type="text" name="nama" required>
+    </p>
+    <p>
+        Ransum:
+        <select name="menu" required>
+            <option value="Pizza Segitiga Polus">Pizza Segitiga Polus</option>
+            <option value="Extra Joss">Extra Joss</option>
+            <option value="Kopi Susu Kapal Api">Kopi Susu Kapal Api</option>
+            <option value="Jus Alpukat">Jus Alpukat</option>
+            <option value="Thai Tea">Thai Tea</option>
+        </select>
+    </p>
+    <p>
+        Jumlah:
+        <input type="number" name="jumlah" value="1" required>
+    </p>
+    <p>
+        Kategori Pelanggan:
+        <label><input type="radio" name="kategori" value="Crewmate" checked> Crewmate</label>
+        <label><input type="radio" name="kategori" value="Impostor"> Impostor</label>
+    </p>
+    <p>
+        <button type="submit">Pesan Sekarang</button>
+    </p>
 </form>
